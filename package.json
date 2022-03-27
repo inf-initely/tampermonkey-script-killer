@@ -1,0 +1,14 @@
+{
+  "name": "tampermonkey-script-killer",
+  "version": "0.1.0",
+  "main": "/dist/index.js",
+  "repository": "https://github.com/inf-initely/tampermonkey-script-killer",
+  "author": "inf-initely",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}

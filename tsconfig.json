@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "lib": ["ESNext", "DOM"],
+    "module": "none",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "outFile": "./dist/index.js"
+  },
+  "files": ["index.ts"]
+}
