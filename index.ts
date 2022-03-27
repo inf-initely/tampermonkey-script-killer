@@ -27,6 +27,11 @@ class Mutator implements MutationObserver {
     return this
   }
 
+  observeDocument() {
+    this.observer.observe(document.documentElement, { childList: true, subtree: true })
+    return this
+  }
+
   disconnect(): this {
     this.observer.disconnect()
     return this
