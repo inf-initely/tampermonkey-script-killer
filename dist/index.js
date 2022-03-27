@@ -28,6 +28,10 @@ class Mutator {
         this.observer.observe(...params);
         return this;
     }
+    observeDocument() {
+        this.observer.observe(document.documentElement, { childList: true, subtree: true });
+        return this;
+    }
     disconnect() {
         this.observer.disconnect();
         return this;
